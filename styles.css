@@ -1,3 +1,14 @@
-div {
-    color: red;
+body {
+    background-image: url("pawel-nolbert-4u2U8EO9OzY-unsplash.jpg");
+  
+}
+
+footer {
+    color: #dcdef5;
+    position: absolute;
+    bottom: 0;
+}
+
+footer a {
+    color: #dcdef5;
 }

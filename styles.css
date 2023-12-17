@@ -1,6 +1,11 @@
 body {
+    background-color: #dcdef5;
+}
+
+main {
+    display: flex;
     background-image: url("pawel-nolbert-4u2U8EO9OzY-unsplash.jpg");
-  
+    height: 100vh;
 }
 
 footer {
@@ -11,4 +16,35 @@ footer {
 
 footer a {
     color: #dcdef5;
+}
+
+.banner {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    background-color: #dcdef5;
+    flex: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section1, .section2, .section3 {
+    flex: 1;
+}
+
+.banner > .section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.logo {
+    background-color: #dcdef5;
+    opacity: 0.5;
+    height: 40%;
+   
 }

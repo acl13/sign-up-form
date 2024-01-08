@@ -15,10 +15,35 @@
             <div class="section2">Section 2</div>
             <div class="section3">Section 3</div>
         </div>
-        <div class="form">
-            <div class="section1">Section 1</div>
-            <div class="section2">Section 2</div>
-            <div class="section3">Section 3</div>
+        <div class="content">
+            <form action="example.com/path" method="post" class="form">
+                <div class="section1">
+                    <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up now to get started.    
+                    </p>
+                    <p>You <em>know</em> you want to.</p>
+                </div>
+                <div class="section2">
+                    <p>Let's do this!</p>
+                        <section>
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                            <label for="phone">Phone number</label>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx"> 
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password">
+                            <label for="password-confirm">Confirm password</label>
+                            <input type="password" id="password-confirm" name="password-confirm">
+                        </section>
+                </div>
+                <div class="section3">
+                    <button type="submit">Create account</button>
+                    <p>Already have an account? <a href='https://www.theodinproject.com/dashboard'>Log in</a> </p>
+                </div>
+            </form>    
         </div>
     </main> 
     <footer>Photo by <a href="https://unsplash.com/@hellocolor?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pawel Nolbert</a> on <a href="https://unsplash.com/photos/timelapse-photography-of-vehicles-and-buildings-4u2U8EO9OzY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

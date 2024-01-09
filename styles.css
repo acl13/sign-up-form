@@ -1,5 +1,6 @@
 body {
-    background-color: #dcdef5;
+    background-color: #191a1d;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -16,6 +17,15 @@ footer {
 
 footer a {
     color: #dcdef5;
+}
+
+button {
+    margin-top: 30px;
+    padding: 5px 22px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    color: #ebebf9;
+    background-color: #454c99;
 }
 
 .banner {
@@ -48,4 +58,29 @@ footer a {
     opacity: 0.5;
     height: 40%;
    
+}
+
+.form > .section1 {
+    padding: 0px 28px;
+   position: relative;
+
+}
+
+.form > .section1 > p {
+    position: absolute;
+    bottom: 0;
+    max-width: 40rem;
+    padding-bottom: 16px;
+    font-weight: bold;
+}
+
+.form > .section2 {
+    background-color: #ebebf9;
+    padding: 0px 28px;
+    box-shadow: 0px 3px 3px #aeb1d0;
+    
+}
+
+.form > .section3 {
+padding: 0px 28px;
 }

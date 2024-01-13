@@ -9,7 +9,7 @@ main {
     display: flex;
     background-image: url("pawel-nolbert-4u2U8EO9OzY-unsplash.jpg");
     height: 100vh;
-    max-width: fit-content;
+  
     
 }
 
@@ -30,6 +30,38 @@ button {
     border-radius: 5px;
     color: #ebebf9;
     background-color: #454c99;
+}
+
+label {
+    display: block;
+    margin: 10px 0px;
+}
+
+input {
+    margin-right: 3em;
+    margin-top: 4px;
+    display: block;
+    width: 25ch;
+    line-height: 1.5em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    
+}
+
+input:hover {
+    border: 2px solid lightblue;
+
+}
+
+input:focus {
+    border: 2px solid lightblue;
+    box-shadow: 0px 3px 3px #aeb1d0;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 
 .banner {
